@@ -1,7 +1,7 @@
 # Developed by Nikita Dolya
 
 1) Module zabbix_server
-2) Profile customdb,web,agent,server
+2) Profile customdb, web, agent, server
 3) Roles zabbix_master, zabbix_agent
 4) site.pp lookup classes in Hiera
 5) all static data for profiles lookup in Hiera
