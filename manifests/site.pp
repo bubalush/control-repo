@@ -12,7 +12,6 @@
 ## Active Configurations ##
 
 # Disable filebucket by default for all File resources:
-#https://docs.puppet.com/pe/2015.3/release_notes.html#filebucket-resource-no-longer-created-by-default
 File { backup => false }
 
 # DEFAULT NODE
@@ -25,8 +24,15 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
-node default {
-  # This is where you can declare classes for all nodes.
-  # Example:
-  #   class { 'my_class': }
+
+
+node default{
+
+  lookup('classes', {merge => unique}).include
+
 }
+
+#node zabbix.minsk.epam.com{
+  
+#  include role::zabbix_master
+#}
