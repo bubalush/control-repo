@@ -1,5 +1,8 @@
 forge "http://forge.puppetlabs.com"
 mod 'puppetlabs-mysql', '3.11.0'
+mod 'puppetlabs-stdlib', '4.19.0'
+mod 'puppet-staging', '2.2.0'
+mod 'puppetlabs-concat', '4.0.1'
 mod 'crayfishx-firewalld', '3.3.2'
 mod 'puppet-selinux', '1.2.0'
 mod 'apache',
