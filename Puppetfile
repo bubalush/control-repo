@@ -4,7 +4,7 @@ mod 'crayfishx-firewalld', '3.3.2'
 mod 'puppet-selinux', '1.2.0'
 mod 'apache',
   :git => 'https://github.com/puppetlabs/puppetlabs-apache'
-  :branch 'release'
+  :branch => 'release'
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
 #mod "puppetlabs/inifile",     '1.5.0'
