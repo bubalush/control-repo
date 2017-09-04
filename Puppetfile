@@ -1,9 +1,9 @@
 forge "http://forge.puppetlabs.com"
-mod 'puppetlabs-mysql', '3.11.0',
-mod 'crayfishx-firewalld', '3.3.2',
-mod 'puppet-selinux', '1.2.0',
+mod 'puppetlabs-mysql', '3.11.0'
+mod 'crayfishx-firewalld', '3.3.2'
+mod 'puppet-selinux', '1.2.0'
 mod 'apache',
-  :git => 'https://github.com/puppetlabs/puppetlabs-apache,'
+  :git => 'https://github.com/puppetlabs/puppetlabs-apache',
   :tag => '2.0.0'
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
