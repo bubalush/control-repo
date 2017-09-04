@@ -1,14 +1,14 @@
 # Developed by Nikita Dolya
 
-1) Module zabbix_server
-2) Profile customdb, web, agent, server
-3) Roles zabbix_master, zabbix_agent
-4) site.pp lookup classes in Hiera
-5) all static data for profiles lookup in Hiera
-6) custom fact = is_zabbixserver show with notify defined 'message' as 'Custom fact = not zabbix-server'
-6) used r10k for deploy production environment
-7) some ussue with eyaml, add key dir
-8) use VM's zabbix, puppet, hots1 from Vagrantfile
+1) Module **zabbix_server**
+2) Profile **customdb**, **web**, **agent**, **server**
+3) Roles **zabbix_master**, **zabbix_agent**
+4) **site.pp** lookup classes in **Hiera**
+5) all **static data** for profiles lookup in **Hiera**
+6) custom fact = **is_zabbixserver** show with notify defined 'message' as 'Custom fact = not zabbix-server'
+6) used **r10k** for deploy production environment
+7) try to use **eyaml** (but compile catalog has encrypted data...not resolved yet)
+8) use VM's **zabbix**, **puppet**, **hots1** from **Vagrantfile**
 
 # /etc/puppetlabs/puppet/hiera.yaml
 ```
