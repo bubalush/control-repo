@@ -8,6 +8,7 @@
 6) custom fact = is_zabbixserver show with notify defined 'message' as 'Custom fact = not zabbix-server'
 6) used r10k for deploy production environment
 7) some ussue with eyaml, add key dir
+8) use VM's zabbix, puppet, hots1 from Vagrantfile
 
 # /etc/puppetlabs/puppet/hiera.yaml
 ```
