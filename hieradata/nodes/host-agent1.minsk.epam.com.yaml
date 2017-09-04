@@ -1,0 +1,6 @@
+classes:
+  - role::zabbix_agent
+
+profile::zserver::agent::ip_servagent: 192.168.50.13
+
+

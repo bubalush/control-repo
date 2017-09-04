@@ -1,0 +1,10 @@
+classes:
+  - role::zabbix_master
+
+profile::zserver::server::userdb: zabbix
+profile::zserver::server::namedb: zabbix
+profile::zserver::server::filldb: /usr/share/doc/zabbix-server-mysql-3.4.1/create.sql.gz
+profile::zserver::server::ip_servagent: 127.0.0.1
+
+profile::zserver::server::passdb: Zabbix_2017
+

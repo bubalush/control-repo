@@ -1,2 +1,4 @@
----
-message: "This node is using common data"
+profile::zserver::server::urlrepo: http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64
+profile::zserver::server::keyrepo: https://repo.zabbix.com/RPM-GPG-KEY-ZABBIX-A14FE591
+profile::zserver::agent::urlrepo: http://repo.zabbix.com/zabbix/3.4/rhel/7/x86_64
+profile::zserver::agent::keyrepo: https://repo.zabbix.com/RPM-GPG-KEY-ZABBIX-A14FE591
